@@ -1,0 +1,45 @@
+
+@media screen and (min-width: 700px) {
+    header h1 {
+        font-size: 5em;
+    }
+    header h2 {
+        font-size: 2.5em
+    }
+    #tips {
+        margin-top: 0;
+        padding-bottom: 2em;
+    }
+    #tips article {
+        width: 50%;
+        float: left;
+    }
+    #tips article ul {
+        display: inline-block;
+    }
+    #tips ul a {
+        color: #555;
+        font-weight: 400;
+        font-size: 1em;
+    }
+    footer {
+        border-top: solid 1px #ccc;
+    }
+    nav ul {
+        display: block;
+        background-color: #dedede;
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+        border-bottom: none;
+        padding: 0 .5em;
+    }
+    nav li a:hover {
+        background-color: #fbd3c8;
+        color: #fff;
+    }
+    .showMenu {
+        display: none;
+    }
+}
